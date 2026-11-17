@@ -1,5 +1,8 @@
 # 退市到账 · DELISTING LEDGER
 
+> **在线访问**：<https://fele-spec.github.io/delisting-ledger/>
+> **代码仓库**：<https://github.com/Fele-Spec/delisting-ledger>
+
 A股退市中小投资者赔偿兑现链数据平台 —— 把一笔损失从 **法律确认（L）** 追到 **可执行容量（PEU）**，再到 **实际到账（R）**。
 
 > 项目：退市赔偿，钱到账了吗？——A股退市下中小投资者赔偿兑现过程与实效研究
