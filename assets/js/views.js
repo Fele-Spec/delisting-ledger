@@ -122,8 +122,6 @@ export function renderHome(){
               </div>`).join('')}
           </div>
           <div class="chain-foot"><span>L − PEU = 资产天花板</span><span>PEU − R = 兑现缺口</span></div>
-          <div class="float-chip c1"><b>${s.cases}</b><span>UNIQUE CASES</span></div>
-          <div class="float-chip c2"><b>${s.sources}</b><span>TRACEABLE SOURCES</span></div>
         </div>
       </div>
     </div>
