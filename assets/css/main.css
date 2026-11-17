@@ -239,7 +239,7 @@ h1,h2,h3,h4{margin:0;font-weight:600;letter-spacing:-.03em;line-height:1.12}
 .hero-meta i{width:4px;height:4px;border-radius:50%;background:var(--cyan);opacity:.7}
 
 /* chain card */
-.chain-card{position:relative;padding:clamp(18px,2.2vw,26px);border-radius:22px}
+.chain-card{position:relative;padding:clamp(18px,2.2vw,26px);border-radius:22px;overflow:visible}
 .chain-head{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:6px}
 .chain-head .tag{font-family:var(--mono);font-size:9px;letter-spacing:.18em;color:var(--dim);text-transform:uppercase}
 .chain-head h3{font-size:16px;margin-top:6px;letter-spacing:-.01em}
@@ -268,8 +268,8 @@ h1,h2,h3,h4{margin:0;font-weight:600;letter-spacing:-.03em;line-height:1.12}
 }
 .float-chip b{font-family:var(--num);font-size:19px;letter-spacing:-.02em}
 .float-chip span{font-family:var(--mono);font-size:8px;letter-spacing:.13em;color:var(--dim);text-transform:uppercase}
-.float-chip.c1{right:22px;top:-20px;animation-delay:-1s}
-.float-chip.c2{left:22px;bottom:-20px;animation-delay:-3.4s}
+.float-chip.c1{right:-16px;bottom:30px;top:auto;animation-delay:-1s}
+.float-chip.c2{left:-16px;top:34px;bottom:auto;animation-delay:-3.4s}
 @keyframes floaty{0%,100%{transform:translateY(0)}50%{transform:translateY(-9px)}}
 
 /* ---------- stats strip ---------- */
